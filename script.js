@@ -25,10 +25,6 @@ function addItem(e) {
 
   //Add li to the DOM
   itemList.appendChild(li);
-
-  checkUI();
-
-  itemInput.value = "";
 }
 
 function createButton(classes) {
